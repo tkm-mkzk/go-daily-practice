@@ -1,5 +1,5 @@
 package main
 
 func main() {
-	ex0402()
+	ex0404()
 }
