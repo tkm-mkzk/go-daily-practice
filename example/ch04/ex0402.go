@@ -2,12 +2,11 @@ package main
 
 import "fmt"
 
-func ex0401() {
+func ex0402() {
 	x := 10
 	if x > 5 {
-		fmt.Println(x)
-		x :=5
-		fmt.Println(x)
+		a, x := 20, 5
+		fmt.Println(a, x)
 	}
 	fmt.Println(x)
 }
