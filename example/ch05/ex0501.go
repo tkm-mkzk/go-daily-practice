@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func div(numerator int, denominator int) int { // 分子, 分母
+func div1(numerator int, denominator int) int { // 分子, 分母
 	if denominator == 0 {
 		return 0
 	}
@@ -10,6 +10,6 @@ func div(numerator int, denominator int) int { // 分子, 分母
 }
 
 func ex0501() {
-	result := div(5, 2)
+	result := div1(5, 2)
 	fmt.Println(result)
 }
